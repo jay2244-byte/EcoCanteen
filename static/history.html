@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste History | EcoCanteen</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <style>
+        .history-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .history-table th,
+        .history-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+
+        .history-table th {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .download-btn {
+            background: var(--accent-color);
+            padding: 0.5rem 1rem;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h2>EcoCanteen AI</h2>
+        </div>
+        <nav>
+            <a href="/">Dashboard</a>
+            <a href="/input">Log Waste</a>
+            <a href="/history">History</a>
+            <a href="/insights">AI Insights</a>
+            <a href="/chatbot">Sustainability AI</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Waste Logging History</h1>
+        <p>View and download receipts for all past food waste entries.</p>
+
+        <div class="card" style="overflow-x: auto;">
+            <table class="history-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Meal</th>
+                        <th>Item</th>
+                        <th>Waste (kg)</th>
+                        <th>Staff</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="history-body">
+                    <tr>
+                        <td colspan="6" style="text-align:center;">Loading history...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="/static/js/script.js"></script>
+</body>
+
+</html>

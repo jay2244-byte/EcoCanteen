@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainability AI Chat | EcoCanteen</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h2>EcoCanteen AI</h2>
+        </div>
+        <nav>
+            <a href="/">Dashboard</a>
+            <a href="/input">Log Waste</a>
+            <a href="/history">History</a>
+            <a href="/insights">AI Insights</a>
+            <a href="/chatbot">Sustainability AI</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h1>Sustainability AI Agent</h1>
+                <span id="chat-status" style="color: #666; font-size: 0.9rem;">● Connecting...</span>
+            </div>
+            <p>Our real-time ML agent is ready to answer your queries about food waste and green canteen practices.</p>
+
+            <div id="chat-container">
+                <div class="message ai-message">
+                    Hello! I'm your real-time ML Agent. I've been enhanced with new insights—ask me anything!
+                </div>
+            </div>
+
+            <div class="form-group" style="display: flex; gap: 10px;">
+                <input type="text" id="chat-input" placeholder="Type your question (e.g., How to reduce rice waste?)">
+                <button id="send-chat">Send</button>
+            </div>
+
+            <div class="tips" style="margin-top: 2rem;">
+                <h3>Real-time ML Capabilities:</h3>
+                <ul>
+                    <li><strong>Instant Feedback</strong>: Powered by WebSocket communication.</li>
+                    <li><strong>ML-Driven</strong>: Using intent classification for smarter answers.</li>
+                    <li><strong>Sustainability Logic</strong>: Ask about reduction, handling, or climate.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="/static/js/script.js"></script>
+</body>
+
+</html>

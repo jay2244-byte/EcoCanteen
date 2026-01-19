@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Vegetable Fried Rice",
+        "ingredients": [
+            "rice",
+            "vegetables",
+            "pea"
+        ],
+        "instructions": "Stir fry leftover rice with mixed vegetables, soy sauce, and garlic."
+    },
+    {
+        "name": "Rice Pudding (Kheer)",
+        "ingredients": [
+            "rice",
+            "milk"
+        ],
+        "instructions": "Simmer rice with milk, sugar, and cardamom for a sweet dessert."
+    },
+    {
+        "name": "Dal Paratha",
+        "ingredients": [
+            "dal",
+            "lentils",
+            "flour"
+        ],
+        "instructions": "Knead leftover dal into dough with whole wheat flour and spices to make parathas."
+    },
+    {
+        "name": "Dal Soup",
+        "ingredients": [
+            "dal",
+            "lentils"
+        ],
+        "instructions": "Thin out the dal with vegetable stock, add fresh herbs and lemon for a soup."
+    },
+    {
+        "name": "Bread Upma",
+        "ingredients": [
+            "bread",
+            "sandwich"
+        ],
+        "instructions": "Cube the bread and toss with mustard seeds, curry leaves, and onions."
+    },
+    {
+        "name": "Bread Pudding",
+        "ingredients": [
+            "bread",
+            "milk",
+            "sugar"
+        ],
+        "instructions": "Bake stale bread with custard mixture for a rich dessert."
+    },
+    {
+        "name": "Paneer Bhurji Sandwich",
+        "ingredients": [
+            "paneer",
+            "cheese"
+        ],
+        "instructions": "Crumble leftover paneer, mix with spices, and use as sandwich filling."
+    },
+    {
+        "name": "Vegetable Cutlets",
+        "ingredients": [
+            "vegetables",
+            "potato",
+            "poha"
+        ],
+        "instructions": "Mash vegetables, mix with binders like breadcrumbs or poha, and shallow fry."
+    },
+    {
+        "name": "Fruit Smoothie",
+        "ingredients": [
+            "fruit",
+            "banana",
+            "apple"
+        ],
+        "instructions": "Blend overripe fruits with yogurt or milk for a quick smoothie."
+    }
+]

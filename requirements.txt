@@ -1,0 +1,5 @@
+flask
+flask-socketio
+ibm-watsonx-ai
+python-dotenv
+gunicorn

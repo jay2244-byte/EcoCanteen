@@ -1,0 +1,9 @@
+﻿date,meal_type,food_item,produced_kg,leftover_kg,reason,recorded_by,diversion_type
+2026-01-10,Lunch,Rice,50,5,Overestimated,Chef Aman,Disposed
+2026-01-11,Lunch,Dal Tadka,30,2,Normal,Staff Rajesh,Disposed
+2222-02-02,Lunch,chapati and dal,2,20,,chef ranjan,Disposed
+2024-01-20,Lunch,Test Rice,10,5,,QA Bot,Donated
+2024-01-20,Lunch,Test Rice,10,5,,QA Bot,Disposed
+2223-02-22,Snacks,kande pohe ,10,1,students prefeered dinner over snacks,chef aman gupta,Donated
+2026-01-19,Breakfast,Rice,10,5,,QA Bot,Disposed
+2026-01-19,Breakfast,Rice,10,5,,QA Bot,Disposed

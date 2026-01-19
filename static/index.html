@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoCanteen | AI Food Waste Reduction</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h2>EcoCanteen AI</h2>
+        </div>
+        <nav>
+            <a href="/">Dashboard</a>
+            <a href="/input">Log Waste</a>
+            <a href="/history">History</a>
+            <a href="/insights">AI Insights</a>
+            <a href="/chatbot">Sustainability AI</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Welcome to Canteen Sustainability Portal</h1>
+        <p>Using AI to optimize production and minimize waste in college canteens.</p>
+
+        <div class="dashboard-grid">
+            <div class="card stat-card">
+                <h3>Total Waste (This Week)</h3>
+                <div class="stat-number">24.5 kg</div>
+                <p>Reduced by 12% vs last week</p>
+            </div>
+
+            <!-- New Impact Stats -->
+            <div class="card stat-card" style="border-left: 5px solid #2e7d32;">
+                <h3>Meals Saved</h3>
+                <div class="stat-number" id="meals-saved">0</div>
+                <p>via Donation</p>
+            </div>
+            <div class="card stat-card" style="border-left: 5px solid #1b5e20;">
+                <h3>CO2 Prevented</h3>
+                <div class="stat-number"><span id="co2-saved">0</span> kg</div>
+                <p>Ecological Offset</p>
+            </div>
+
+            <div class="card stat-card">
+                <h3>Most Wasted Item</h3>
+                <div class="stat-number">Rice</div>
+                <p>Mainly during lunch hours</p>
+            </div>
+            <div class="card stat-card">
+                <h3>AI Recommendation</h3>
+                <p>"Consider partial batches for 1 PM lunch slots."</p>
+            </div>
+        </div>
+
+        <section class="card">
+            <h3>Project Overview</h3>
+            <p>Our AI-Based Food Waste Reduction Advisor helps canteen managers predict demand and understand waste
+                patterns. By logging daily leftovers, the system generates actionable intelligence to save costs and
+                reduce environmental impact.</p>
+            <button onclick="location.href='/input'">Start Logging Waste</button>
+        </section>
+    </main>
+
+    <script src="/static/js/script.js"></script>
+</body>
+
+</html>
