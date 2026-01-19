@@ -3,7 +3,6 @@
 A smart, AI-powered solution to help college canteens reduce food waste, optimize cooking batches, and minimize their carbon footprint.
 
 ![Dashboard Screenshot](screenshots/dashboard.png)
-*(Add your dashboard screenshot here)*
 
 ## 🚀 Features
 
@@ -65,6 +64,9 @@ This project includes a `Procfile` and is ready for deployment on platforms like
 
 ### Log Waste Input
 ![Input Page](screenshots/input.png)
+
+### Waste Logging History
+![History Page](screenshots/history.png)
 
 ### Smart Insights & Recipes
 ![Insights Page](screenshots/insights.png)
